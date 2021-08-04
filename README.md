@@ -9,7 +9,7 @@ This project will analyze what types of films are currently doing the best at th
 We each looked at what aspects of a movie will make maximum profit.
 * Correlation of budget and profit margin
 * Popular Genres
-* Popular Movie Ratings 
+* Parental Ratings that give best return 
 
 ## How to choose which movie to create
 ### Budget vs. Profit Margin
