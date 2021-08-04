@@ -23,22 +23,22 @@ With our filtered data, now we asked ourselves: for Microsoft to enter the film 
 ### Genre
 After sorting the movies using profit and net margin profit (over 70%), we took the genres from each movie and created bar graph to show popular genres in a movie that profited the most. 
 This bar graph shows set of genres that are popular for each movie that profited the most.
-![set_of_genres](images/set_of_genres_in_top_100_profited_movies.png)
+![set_of_genres](images/set_of_genres_top_100_profited_movies.png)
 You can see that Adventure, Action, Comedy, Animation, and Sci-Fi were top 5 popular genres.
 Then we took the sets of genres and separated them individually to create a bar graph of each genres that are popular for each movie that profited the most.
-![genres](images/genres_top_100_profited_movies.png)
+![genres](images/genres_in_top_100_profited_movies.png)
 You can see that "Action, Adventure, Sci-Fi" and "Adventure, Animation, Comedy" are the most popular set of genres for movies.
 ### Rating
 We selected all the movie ratings from the data table and counted each ratings. 
-![Rating Count](images/Rating Count Films with Data.png)
+![Rating Count](images/Rating&#32;Count&#32;Films&#32;with&#32;Data.png)
 We can see that there are some null values in the data. So, we dropped all the null data.
-![Rating Count Films](images/Rating Count Films with Data.png)
+![Rating Count Films](images/Rating&#32;Count&#32;Films&#32;with&#32;Data.png)
 First, we created histograms to show the top 105 ratings in box office and bottom 105 ratings in box office.
-![Top 105](images/Top 105.png)
-![Bottom 105](images/Bottom 105.png)
+![Top 105](images/Top&#32;105.png)
+![Bottom 105](images/Bottom&#32;105.png)
 As you can see, PG-13 movies profited the most while R-rated movies profited the least.
 
 To check
-![Above Average](images/Above Average.png)
-![Below Average](images/Below Average.png)
+![Above Average](images/Above&#32;Average.png)
+![Below Average](images/Below&#32;Average.png)
 ## Conclusion
