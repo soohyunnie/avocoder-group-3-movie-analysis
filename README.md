@@ -1,5 +1,5 @@
 # Movie Analysis
-![movie picture](data/movie_picture.png)
+![movie picture](images/movie_picture.png)
 ## Overview
 This project will analyze what types of films are currently doing the best at the box office to help Microsoft decide what type of films to create. 
 ## Business Problem
