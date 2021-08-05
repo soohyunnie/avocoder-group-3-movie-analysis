@@ -16,15 +16,13 @@ We each looked at what aspects of a movie will make maximum profit.
 #### If Microsoft spends x amount more, will profits increase by y?
 First, we filtered out movies that was release before 2005 to get approximately 10 years worth of data. 
 Since the range of the production budget was big, we created a box plot to see which range of budget we should use to analyze.<br>
-(box plot)<br>
+<img align="center" src="images/filtered_df_boxplot.png"><br>
 After looking at the box plot above, we decided to separate movies in 3 different ranges: below the 25th percentile, between the 25th and the 75th percentile, and above the 75th percentile to see correlation of budget and profit margin.
 With our filtered data, now we asked ourselves: for Microsoft to enter the film industry, what's a good production budget?<br>
-(low corr data table)<br>
-(mid corr data table)<br>
-(high corr data table)<br>
+<img align="center" src="images/Corrs&#32;for&#32;Jupyter.PNG"><br>
 You can see that there is positive correlation between profit margin and production budget and the highest correlation between production budget and profit in the above the 75th percentile data. So, we will be focusing on the data that is above the 75th percentile data.
-(scatter plot)<br>
-(75th percentile data describe table)<br><br>
+<img align="center" src="images/budget_v_prof_scatter_seaborn_version.png"><br><br>
+<img align="center" src="images/High_df_stats.PNG.png"><br><br>
 Although we can see from the above data that the correlation between Budget and Profit Margin is not very strong, it does still exist.
 As part of our recommendations, a budget of $115,000,000 is ideal for maximizing Profit Margin, though there is much more that goes into creating a high-profit movie.
 
@@ -60,5 +58,5 @@ From the data we were given, our recommendation is to make a movie with the PG-1
 ## Conclusion
 After analyzing our data, to make maximum profit movie, we recommend:
 * Budget: $115,000,000
-* Genre: Scie-Fi, Animation, Comedy
+* Genre: Sci-Fi, Animation, Comedy
 * Rating: PG-13
