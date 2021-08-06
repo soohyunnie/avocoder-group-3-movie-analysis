@@ -50,4 +50,6 @@ After analyzing our data, we recommend:
 * Genres for PG-13 Movies: Drama, Comedy, Adventure, Action
 * Budget: $120,000,000 - $150,000,000
 <br>
-There is still data to be analyzed, but this would be a good starting point for Micrsoft's film studio.
+There is still data to be analyzed, but this would be a good starting point for Micrsoft's film studio.<br><br>
+
+Link to our Final Notebook [link](Final_Notebook.ipynb)
