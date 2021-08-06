@@ -15,9 +15,9 @@ We each looked at what aspects of a movie will make maximum profit.
 
 ### Rating
 We selected all the movie ratings from the data table and counted each ratings. We, then, dropped all the null data and sorted the movies by box office.<br>
-<img align="center" src="images/Distribution&#32;of&#32;Ratings.png"><br>
+<img align="center" src="images/Rating_321_Films.png"><br>
 Let's see how the distribution of box office earnings are for each rating.
-<img align="center" src="images/Stacked&#32;Bar&#32;Chart.png"><br>
+<img align="center" src="images/Ratings_v_Box_Office_Earnings.png.png"><br>
 Even though the R rating is more popular in our data set, PG-13 dominates in overall earnings.<br><br>
 
 From the graphs above, lower the earnings are, the most rating of the movie was R-rated. Higher earning movies was PG-13. This shows why our first bar graph showed more R-rated movies but our second stacked-bar graph showed more earnings for PG-13.<br><br>
@@ -32,17 +32,17 @@ After counting the number of each genres, we created a bar graph to show the top
 As you can see, Drama, Comedy, Adventure, and Action genres are the top 4 genres that are popular in PG-13 movies.<br><br>
 
 ### Production Budget
-Now, with our top 4 popular genres, we want to see how much Microsoft should sepdnt for those genres to get the best profit.<br>
+Now, with our top 4 popular genres, we want to see how much Microsoft should sepdnt for those genres to get the best profit.<br><br>
 We see that most of our data falls in the range of about 20 million to 80 million. 
 <img align="center" src="images/filtered_df_boxplot.png"> <br>
 Let's divide our data into three subsets of datapoints using their budgets' Inter-Quartile Range (IQR): below 25th percentile, between 25th-75th percentile, and above 75th percentile.<br>
 <img align="center" src="images/Three_Data_Frames.png"> <br>
-Let's see the correlation table for each range.
+Let's see the correlation table for each range (below 25th percentile, between 25th-75th percentile, and above 75th percentile, respectively).
 <img align="center" src="images/Corrs&#32;for&#32;Jupyter.PNG"> <br>
-We see that the high-budget dataframe has the best correlation from budget to profit/profit margin.<br>
+We see that the high-budget dataframe has the best correlation from budget to profit/profit margin.<br><br>
 We'll analyze the best budgets to use for the respective genres in this dataframe.
 <img align="center" src="images/High_df_stats.PNG"> <br>
-Since the High DF graph above was skewed, we found the median production budgets for each genre from the high-budget (above 75th percentile) dataframe.
+Since the High budget graph above was skewed, we found the median production budgets for each genre from the high-budget (above 75th percentile) dataframe.
 <img align="center" src="images/Top_4_Medians.png"> <br>
 The above graph shows the median range of 120 million to 150 million for the top-4 genres' production budgets.<br><br>
 ## Conclusion
